@@ -1,11 +1,14 @@
 package com.apolloarts.springbootkotlin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.runApplication
 
+
 @SpringBootApplication
-class SpringBootKotlinApplication
+@EnableConfigurationProperties(BlogProperties::class)
+class BlogApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringBootKotlinApplication>(*args)
+	runApplication<BlogApplication>(*args)
 }

@@ -7,3 +7,9 @@
 - Open build.gradle.kts
 - Click on "Link Gradle project" prompt at top right.
 - Click load gradle project prompt at bottom right.
+
+## Urls
+- http://localhost:8080/
+- http://localhost:8080/article/reactor-aluminium-has-landed
+- http://localhost:8080/api/article/
+- http://localhost:8080/api/article/reactor-aluminium-has-landed
